@@ -50,9 +50,9 @@ namespace SpellCheckerDemo
 
             stopwatch.Stop();
             Debug.WriteLine($"{stopwatch.ElapsedMilliseconds:n0}");
+            ellapsed.Text = $"Time ellapsed: {stopwatch.ElapsedMilliseconds:n0} ms";
 
             listBox.ItemsSource = suggestions;
-
         }
     }
 }

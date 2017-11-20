@@ -10,10 +10,13 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
             <RowDefinition Height="5*" />
+            <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         
         <TextBox x:Name="txtWord" Margin="20, 10" TextChanged="txtWord_TextChanged"/>
 
         <ListBox x:Name="listBox" Grid.Row="1" />
+
+        <TextBlock x:Name="ellapsed" Grid.Row="2" />
     </Grid>
 </Window>
